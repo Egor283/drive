@@ -3,7 +3,10 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
-        <entry key="Driver/Driver/Views/MainView.axaml" value="Driver/Driver.Browser/Driver.Browser.csproj" />
+        <entry key="Driver/Driver/App.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
+        <entry key="Driver/Driver/Views/AddDriver.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
+        <entry key="Driver/Driver/Views/Datadriver.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
+        <entry key="Driver/Driver/Views/MainView.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
         <entry key="Driver/Driver/Views/MainWindow.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
       </map>
     </option>
