@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Driver.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:Driver.Views"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Driver.Views.MainWindow"
+        Icon="/Assets/gibdd_logo.png"
+        Title="Driver" MinHeight="450" MinWidth="800">
+        <Grid RowDefinitions="50, *">
+                <StackPanel Orientation="Horizontal" Grid.Row="1">
+                        <Image Source="../Assets/gibdd_logo.png"/>
+                        <Label />
+                </StackPanel>
+                <ContentControl Name="CCW"/>
+        </Grid>
+</Window>
