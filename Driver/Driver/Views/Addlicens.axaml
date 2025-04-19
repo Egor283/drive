@@ -1,0 +1,40 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Driver.Views.Addlicens"
+        Title="Addlicens">
+    <ScrollViewer>
+                <StackPanel>
+                        <StackPanel Name="SP">
+                                <Label Content="Начало лицензии"/>
+                                <CalendarDatePicker  SelectedDate="{Binding LicenceDate}"/>
+                                <Label Content="Конец лицензии"/>
+                                <CalendarDatePicker SelectedDate="{Binding ExpireDate}"/>
+                                <Label Content="Категория"/>
+                                <TextBox Text="{Binding Catergory}"/>
+                                <Label Content="Серия лицензии"/>
+                                <TextBox Text="{Binding LicenceSeries}"/>
+                                <Label Content="Статус"/>
+                                <ComboBox Name="StatusCB" SelectedItem="{Binding Status}">
+                                        <ComboBox.ItemTemplate>
+                                                <DataTemplate>
+                                                        <Label Content="{Binding StatusDes}"/>
+                                                </DataTemplate>
+                                        </ComboBox.ItemTemplate>
+                                </ComboBox>
+                                <Label Content="Водитель"/>
+                                <ComboBox Name="DriverCB" SelectedItem="{Binding Driver}">
+                                        <ComboBox.ItemTemplate>
+                                                <DataTemplate>
+                                                        <Label Content="{Binding Name}"/>
+                                                </DataTemplate>
+                                        </ComboBox.ItemTemplate>
+                                </ComboBox>
+                        </StackPanel>
+                        <Button Name="OkBtn" Content="Добавить" Click="OkBtn_OnClick"/>
+                        <Button Name="OtBtn" Content="Отмена"/>
+                </StackPanel>
+        </ScrollViewer>
+</Window>

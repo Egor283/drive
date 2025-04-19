@@ -5,7 +5,12 @@
       <map>
         <entry key="Driver/Driver/App.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
         <entry key="Driver/Driver/Views/AddDriver.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
+        <entry key="Driver/Driver/Views/Add_licens.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
+        <entry key="Driver/Driver/Views/Addlicens.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
         <entry key="Driver/Driver/Views/Datadriver.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
+        <entry key="Driver/Driver/Views/GenerateLic.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
+        <entry key="Driver/Driver/Views/HistoryStatus.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
+        <entry key="Driver/Driver/Views/Licens.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
         <entry key="Driver/Driver/Views/MainView.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
         <entry key="Driver/Driver/Views/MainWindow.axaml" value="Driver/Driver.Desktop/Driver.Desktop.csproj" />
       </map>

@@ -3,6 +3,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
+using Avalonia.Media;
 using Driver.Classes;
 using Microsoft.EntityFrameworkCore;
 using MsBox.Avalonia;
@@ -72,4 +73,16 @@ public partial class Datadriver : UserControl
     {
         LoaData();
     }
+
+    private void VYBtn_OnClick(object? sender, RoutedEventArgs e)
+    {
+            Addlicens wind = new Addlicens();
+            wind.ShowDialog(Help.win);
+    }
+
+    private void EditVYBtn_OnClick(object? sender, RoutedEventArgs e)
+    {
+        Help.CCH.Content = new Licens();
+    }
+    
 }

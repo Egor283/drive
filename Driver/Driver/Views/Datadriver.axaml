@@ -11,6 +11,8 @@
         <Button Content="Добавить" Name="DobBtn" Click="DobBtn_OnClick"/>
         <Button Content="Посмотреть" Name="EditBtn" Click="EditBtn_OnClick"/>
         <Button Content="Обновить" Name="ObnBtn" Click="ObnBtn_OnClick"/>
+        <Button Content="Добавить ВУ" Name="VYBtn" Click="VYBtn_OnClick"/>
+        <Button Content="Посмотреть ВУ" Name="EditVYBtn" Click="EditVYBtn_OnClick"/>
     </StackPanel>
     </Grid>
 </UserControl>

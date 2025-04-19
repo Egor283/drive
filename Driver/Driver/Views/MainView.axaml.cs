@@ -14,7 +14,7 @@ public partial class MainView : UserControl
 
     private void Button_OnClick_OK(object? sender, RoutedEventArgs e)
     {
-        if (LoginTB.Text == "Инспектор" && PasswTB.Text == "Инспектор")
+        if (LoginTB.Text == "1" && PasswTB.Text == "1")
         {
             Help.CCH.Content = new Datadriver();
         }

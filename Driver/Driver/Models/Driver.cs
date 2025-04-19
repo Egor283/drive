@@ -39,5 +39,7 @@ public partial class Driver
 
     public string? Description { get; set; }
 
+    public virtual ICollection<Licen> Licens { get; set; } = new List<Licen>();
+
     public virtual Photo Photo { get; set; } = null!;
 }
